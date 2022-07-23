@@ -63,7 +63,7 @@ class Person
 
     def start_conversation(friend, topic)
         case topic
-        when "politics1"
+        when "politics"
             [self,friend].each{|person| person.happiness -= 2}
             "blah blah partisan blah lobbyist"
         when "weather"
